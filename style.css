@@ -1,1 +1,21 @@
+header {
+    background-color: #24292e; /* Dark GitHub-style grey */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
+nav ul {
+    list-style-type: none; /* Removes the bullet points */
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Puts links side-by-side */
+    margin: 0 15px;
+}
+
+nav a {
+    color: #58a6ff;
+    text-decoration: none;
+}
