@@ -5,7 +5,9 @@ header {
     text-align: center;
     position: sticky; top: 0;
 }
-
+footer {
+    font-size: 6px;
+}
 nav ul {
     list-style-type: none; /* Removes the bullet points */
     padding: 0;
