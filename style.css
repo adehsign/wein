@@ -1,20 +1,20 @@
 header {
-    background-color: #24292e; /* Dark GitHub-style grey */
+    background-color: black;
     color: white;
     padding: 20px;
     text-align: center;
     position: sticky; top: 0;
 }
 footer {
-    font-size: 6px;
+    font-size: 60px;
 }
 nav ul {
-    list-style-type: none; /* Removes the bullet points */
+    list-style-type: none;
     padding: 0;
 }
 
 nav li {
-    display: inline; /* Puts links side-by-side */
+    display: inline; 
     margin: 0 15px;
 }
 
