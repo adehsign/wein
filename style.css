@@ -5,8 +5,8 @@ header {
     text-align: center;
     position: sticky; top: 0;
 }
-footer {
-    font-size: 60px;
+footer p{
+    font-size: 50px;
 }
 nav ul {
     list-style-type: none;
