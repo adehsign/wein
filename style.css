@@ -22,3 +22,36 @@ nav a {
     color: #58a6ff;
     text-decoration: none;
 }
+/* Layout for the grid */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Styling the clickable card */
+.blog-card {
+  text-decoration: none; /* Removes the underline from the link */
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s; /* Adds a nice hover effect */
+}
+
+.blog-card:hover {
+  transform: scale(1.05); /* Card grows slightly when hovered */
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Keeps image from looking squished */
+}
+
+.post-title {
+  padding: 15px;
+  font-weight: bold;
+  text-align: center;
+}
