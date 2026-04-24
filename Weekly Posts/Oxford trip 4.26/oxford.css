@@ -1,0 +1,5 @@
+img {
+  max-width: 100%;  /* The image will never be wider than its container */
+  height: auto;     /* The height adjusts automatically to keep the proportions */
+  display: block;   /* Removes weird small gaps at the bottom of images */
+}
